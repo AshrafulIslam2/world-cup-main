@@ -205,15 +205,31 @@ body {
 
 .per-news-blog {
     width: 250px;
-    height: 389px;
+    height: 280px;
     box-sizing: border-box;
     box-shadow: 5px 5px 40px lightgrey;
     border-radius: 10px;
 }
 
+.img-news {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.news-details h4 {
+    text-align: center;
+}
+
+.main-icon.icon1 p {
+    text-align: center;
+    padding-left: 40px;
+    margin-left: 500px;
+}
+
 .img-news img {
-    width: 250px;
-    height: 175px;
+    width: 93.04px;
+    height: 56.18px;
 }
 
 .news-details button {
@@ -237,25 +253,11 @@ body {
     color: #161616;
 }
 
-.main-icon {
-
-    margin-left: 15px;
-    display: flex;
-    gap: 30px;
+.p {
+    text-align: center;
+    color: #B9B9B9;
 }
 
-.icon1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icon2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .button-tap {
     display: none;
