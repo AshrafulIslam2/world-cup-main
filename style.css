@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif;  */
+
+/*---------------------------------
+ Header Style Start 
+ ----------------------------------
+ */
+.Header {
+    width: 76%;
+    height: 690px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Header_Title {
+    width: 50%;
+}
+
+.Header_Title h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    width: 541px;
+    height: 246px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+
+}
+
+.Header_Title p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    width: 506px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 100px;
+}
+
+.fa-chevron-right {
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.watch_btn {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 5pxs;
+    text-align: center;
+    margin-left: 100px;
+    color: #FFFFFF;
+    width: 187px;
+    height: 56px;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+
+.Header_img {
+    margin-top: 150px;
+    width: 50%;
+}
+
+.messi {
+    transition: transform 0.5s ease-in;
+}
+
+.Header_img:hover .messi {
+    transform-origin: bottom;
+    transform: translate(-100px) rotate(10deg);
+}
+
+.football {
+    width: 30px;
+    position: relative;
+    top: 339px;
+    left: 180px;
+    transition: transform 0.5s ease-out 0.5s;
+}
+
+.Header_img:hover .football {
+    transform: translate(-300px, -100px);
+}
+
+
+
+
+/* Header Style for mobile screen and tap  */
+@media only screen AND (max-width: 688px) {
+    .Header {
+        width: 76%;
+        height: 100%;
+        background-color: black;
+        margin: auto auto;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    Header_Title {
+        width: 100%;
+    }
+
+    .Header_Title h1 {
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        width: 228px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        margin-top: 150px;
+        padding-left: 0;
+        padding-bottom: 50px;
+
+    }
+
+    .Header_Title p {
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        width: 258px;
+        height: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .Header_img {
+        width: 100%;
+        height: 100%;
+        margin-top: -10px;
+        margin-left: -270px;
+    }
+
+    .watch_btn {
+        width: 161px;
+        height: 40px;
+        margin-top: 70px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .Header_img:hover .football {
+        transform: translate(-40px, -100px);
+    }
+
+
+}
+
+/* Header Style for Tablet  */
+@media only screen AND (min-width:689px)AND (max-width: 992px) {
+    .Header {
+        width: 100%;
+        height: 690px;
+        background-color: black;
+        margin: 0 auto;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Header_Title {
+        width: 100%;
+    }
+
+    .Header_Title h1 {
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        width: 289px;
+        height: 150px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 100px;
+        padding-left: 80px;
+        padding-bottom: 50px;
+
+    }
+
+    .Header_Title p {
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        width: 316px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        padding-left: 80px;
+    }
+
+    .fa-chevron-right {
+        color: #FFFFFF;
+        padding-left: 10px;
+    }
+
+    .watch_btn {
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 5pxs;
+        text-align: center;
+        margin-left: 80px;
+        color: #FFFFFF;
+        width: 187px;
+        height: 56px;
+        background-color: #DD0000;
+        border-radius: 5px;
+    }
+
+    .Header_img {
+        margin-top: 150px;
+        width: 100%;
+
+    }
+
+    .Header_img img {
+        margin-left: -120px;
+    }
+
+    .messi {
+        transition: transform 0.5s ease-in;
+    }
+
+    .Header_img:hover .messi {
+
+        transform-origin: bottom;
+        transform: translate(-100px) rotate(10deg);
+    }
+
+    .football {
+
+        width: 30px;
+        position: relative;
+        top: -70px;
+        left: 100px;
+        transition: transform 0.5s ease-out 0.5s;
+    }
+
+    .Header_img:hover .football {
+
+        transform: translate(-100px, -100px);
+    }
+
+}
